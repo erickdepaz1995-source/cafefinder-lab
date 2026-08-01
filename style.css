@@ -1,0 +1,89 @@
+:root {
+  --bg: #f7f1ea;
+  --card: #ffffff;
+  --text: #2f241d;
+  --muted: #6a5445;
+  --accent: #7b4d2b;
+  --accent-soft: #f0dfcf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, #fdfbf8 0%, var(--bg) 100%);
+  color: var(--text);
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0 0 14px;
+  font-size: 2.2rem;
+}
+
+.filter-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+#zoneFilter {
+  width: min(300px, 100%);
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #b89f8c;
+  font-size: 1rem;
+  background: white;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.shop-card {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 12px 28px rgba(86, 57, 33, 0.08);
+  border: 1px solid rgba(123, 77, 43, 0.15);
+}
+
+.shop-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.shop-meta {
+  margin: 6px 0;
+  color: var(--muted);
+}
+
+.shop-chip {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.empty-state {
+  color: var(--muted);
+  font-size: 1rem;
+}
