@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Café La Ceiba", "zone": "Zona 10", "specialty": "espresso", "avg_price": 25 },
+  { "id": 2, "name": "El Molino", "zone": "Zona 4", "specialty": "pour over", "avg_price": 30 },
+  { "id": 3, "name": "Tostaduría Antigua", "zone": "Zona 1", "specialty": "cold brew", "avg_price": 22 },
+  { "id": 4, "name": "Café del Parque", "zone": "Zona 15", "specialty": "cappuccino", "avg_price": 28 },
+  { "id": 5, "name": "La Bodega Café", "zone": "Zona 4", "specialty": "espresso", "avg_price": 20 }
+]
